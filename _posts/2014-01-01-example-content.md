@@ -2,7 +2,7 @@
 layout: post
 title: Example content
 permalink: pretty
-published: true
+published: false
 ---
 
 

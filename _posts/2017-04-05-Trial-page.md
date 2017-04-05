@@ -2,7 +2,7 @@
 layout: post
 title: First example content
 published: true
-comments: true
+comments: false
 category: Dev
 tags: [web, jekyll]
 ---
