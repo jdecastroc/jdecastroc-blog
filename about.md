@@ -9,7 +9,7 @@ With 18 years I moved to Barcelona to study the higher technician in systems adm
 
 After finishing the university I decided to come to [Tokyo](https://en.wikipedia.org/wiki/Tokyo) (Japan) as a vital challenge with the purpose of learning a new language, culture and customs. Every day I continue enjoining learning about the environment which surrounds me.
 
-I like the back-end development, the logic behind the projects as well as try and learn new technologies that are emerging day by day. I like working with enthusiastic people who put all their effort into advancing together and those who believe in the team. I like good practices and learn from my environment while teaching or while being taught.
+I like the back-end development, the logic behind the projects as well as learn new technologies that are emerging day by day. I like working with enthusiastic people who put all their effort into advancing together and those who believe in the team. I like good practices and learn from my environment while teaching or while being taught.
 
 Contact: [jdecastrocabello@gmail.com](mailto;jdecastrocabello@gmail.com)
 

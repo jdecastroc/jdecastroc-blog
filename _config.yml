@@ -6,8 +6,10 @@ permalink:           pretty
 
 # Setup
 title:               Jorge de Castro
-tagline:             ''
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+tagline:             '<a href="http://gravatar.com/3c2986ad7ac1f2230ea3596f4456332">
+                       <img src="https://en.gravatar.com/userimage/119660097/439be0e970f6994179f475b1d3379526.jpg?size=350"  style="border-radius: 25px;" title="View on Gravatar" alt="View on Gravatar">
+                       </a>'
+description:         '<img href="/_resources/12540530.jpg">Jekyll</img>'
 url:                 http://jdecastroc.ovh
 baseurl:             ''
 paginate:            5
@@ -22,6 +24,6 @@ author:
 version:             1.0.0
 
 # Gems
-gems: 
+gems:
 - jekyll-paginate
 - jekyll-archives

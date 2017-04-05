@@ -24,11 +24,18 @@
         {% endif %}
       {% endif %}
     {% endfor %}
+    {% for node in pages_list %}
+      {% if node.title != null %}
+        {% if node.layout == "blog_index" %}
+          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
   </nav>
 
   <div class="sidebar-item">
     <p>
-      &copy; {{ site.time | date: '%Y' }} Jorge de Castro. Blog created with <a href="https://jekyllrb.com/">Jekyll</a>. Template based on <a href="https://github.com/poole/lanyon">Poole</a>. 
+      &copy; {{ site.time | date: '%Y' }} Jorge de Castro. Blog created with <a href="https://jekyllrb.com/">Jekyll</a>. Template based on <a href="https://github.com/poole/lanyon">Poole</a>.
     </p>
   </div>
 </div>
