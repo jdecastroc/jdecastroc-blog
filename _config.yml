@@ -6,10 +6,12 @@ permalink:           pretty
 
 # Setup
 title:               Jorge de Castro
-tagline:             '<a href="http://gravatar.com/3c2986ad7ac1f2230ea3596f4456332">
-                       <img src="https://en.gravatar.com/userimage/119660097/439be0e970f6994179f475b1d3379526.jpg?size=350"  style="border-radius: 25px;" title="View on Gravatar" alt="View on Gravatar">
-                       </a>'
-description:         '<img href="/_resources/12540530.jpg">Jekyll</img>'
+tagline:             ''
+description:         '<img src="http://www.gravatar.com/avatar/3c2986ad7ac1f2230ea3596f44563328?s=350" style="border: 10px solid transparent;
+                      padding: 15px;
+                      -webkit-border-image: url(border.png) 20% round; /* Safari 3.1-5 */
+                      -o-border-image: url(border.png) 20% round; /* Opera 11-12.1 */
+                      border-image: url(border.png) 20% round;"title="View on Gravatar" alt="View on Gravatar">'
 url:                 http://jdecastroc.ovh
 baseurl:             ''
 paginate:            5
