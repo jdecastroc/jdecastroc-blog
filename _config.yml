@@ -11,7 +11,7 @@ description:         '<img src="https://en.gravatar.com/userimage/119660097/439b
                       padding: 10px;
                       "title="View on Gravatar" alt="View on Gravatar">'
 url:                 http://jdecastroc.ovh
-baseurl:             ''
+baseurl:             'http://jdecastroc.ovh/'
 paginate:            5
 
 # About/contact
