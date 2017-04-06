@@ -10,6 +10,7 @@ tagline:             ''
 description:         '<img src="https://en.gravatar.com/userimage/119660097/439be0e970f6994179f475b1d3379526.jpg?size=350" style="border-radius: 25px;
                       padding: 10px;
                       "title="View on Gravatar" alt="View on Gravatar">'
+fixedurl:            'http://jdecastroc.ovh'
 url:                 http://jdecastroc.ovh
 baseurl:             ''
 paginate:            5
