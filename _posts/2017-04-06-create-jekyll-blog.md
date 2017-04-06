@@ -62,7 +62,7 @@ gems:
 ```js
 //_includes/disqus.html
 
-{% if page.comments %}
+\{\% if page.comments \%\}
 <div id="disqus_thread"></div>
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -79,12 +79,12 @@ gems:
     </script>
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-{% endif %}
+\{\% endif \%\}
 ```
 - Adding Goolge analytics in all the pages. In order to accomplish this I put the provided google analytics script code into a new file located in *_include/analytics.html* and called that file by using the following code at the end of *_layouts/default.html*.
 
 ```sh
-``{``% include analytics.html ``%``}
+\{\% include analytics.html \%\}
 ```
 
 - Creating a Gravattar account and adding the avatar to the sidebar by modification the *_config.yml* description
