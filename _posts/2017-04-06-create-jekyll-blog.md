@@ -9,12 +9,16 @@ tags: [webdev, jekyll, blog]
 ---
 
 Jekyll is a powerful static site generator which means you don't need any database behind it making it simple and fast to set up.
+
 I choose Jekyll because I heard about it before and since I wanted to have a little place on the internet where to store my memos it was a great choice as the set up is fast and is very customizable.
+
 There are many tutorials on the internet about how to set Jekyll up with GitHub pages but since I have a server (Based on Ubuntu 15.04) where I use to test my applications I used to set Jekyll there.
 
 # Setting up Jekyll on Linux (Ubuntu 15.04)
 
-Jekyll runs in Ruby so the first step was install the necessary packages in the server. As long as I wanted to use the port 80 for the blog I didn't touch anything related to the firewall. By default Jekyll runs on the port 4000 so if you're using a firewall like ufw don't forget to add the proper rule to allow the connections.
+Jekyll runs in Ruby so the first step was install the necessary packages in the server. As long as I wanted to use the port 80 for the blog I didn't touch anything related to the firewall.
+
+By default Jekyll runs on the port 4000 so if you're using a firewall like ufw don't forget to add the proper rule to allow the connections.
 
 Neccessary packages:
 ```sh
@@ -29,6 +33,7 @@ $ sudo ufw allow 4000
 ```
 # Choosing a template
 There are a lot on the internet but [Poole/lanyon](https://github.com/poole/lanyon) is just perfect: simple and elegant. There are lot of themes [here!](http://jekyllthemes.org/).
+
 After choosing the template I forked the code to my own repository in GitHub. By doing that I'm able to write the posts in local and use Github to deploy the posts or changes in the server.
 
 I created a new folder where to store my blog and connect it with the Github repository in the root of my user.
@@ -61,8 +66,9 @@ gems:
 
 ```js
 //_includes/disqus.html
-
-\{\% if page.comments \%\}
+{% raw %}
+{% if page.comments %}
+{% endraw %}
 <div id="disqus_thread"></div>
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -79,12 +85,16 @@ gems:
     </script>
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-\{\% endif \%\}
+{% raw %}
+{% endif %}
+{% endraw %}
 ```
 - Adding Goolge analytics in all the pages. In order to accomplish this I put the provided google analytics script code into a new file located in *_include/analytics.html* and called that file by using the following code at the end of *_layouts/default.html*.
 
-```sh
-\{\% include analytics.html \%\}
+```js
+{% raw %}
+{% include analytics.html %}
+{% endraw %}
 ```
 
 - Creating a Gravattar account and adding the avatar to the sidebar by modification the *_config.yml* description
