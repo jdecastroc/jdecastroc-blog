@@ -15,7 +15,6 @@ small {
 }
 
 .tag::before {
-  content: "";
   font-family: FontAwesome;
   padding-right: 0.5em;
 }
