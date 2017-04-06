@@ -84,7 +84,7 @@ gems:
 - Adding Goolge analytics in all the pages. In order to accomplish this I put the provided google analytics script code into a new file located in *_include/analytics.html* and called that file by using the following code at the end of *_layouts/default.html*.
 
 ```sh
-\{% include analytics.html %\}
+``{``% include analytics.html ``%``}
 ```
 
 - Creating a Gravattar account and adding the avatar to the sidebar by modification the *_config.yml* description
