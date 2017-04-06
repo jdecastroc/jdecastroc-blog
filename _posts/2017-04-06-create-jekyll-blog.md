@@ -50,7 +50,7 @@ Once finished these steps the blog is set up and is time to customize it.
 # Customizing the blog
 
 - Adding the proper gems to the *_config.yml*
-```rb
+```sh
 # Gems
 gems:
 - jekyll-paginate
@@ -59,7 +59,7 @@ gems:
 - Adding [disqus](https://disqus.com/) by singing up and following the steps. I had some problems with the code related to the comment section but I solved it by implementing a previous version:
 
 ```js
-_includes/disqus.html
+//_includes/disqus.html
 
 {% if page.comments %}
 <div id="disqus_thread"></div>
@@ -81,11 +81,11 @@ _includes/disqus.html
 {% endif %}
 ```
 - Adding Goolge analytics in all the pages. In order to accomplish this I put the provided google analytics script code into a new file located in *_include/analytics.html* and called that file by using the following code at the end of *_layouts/default.html*
-```html
+```sh
 {% include analytics.html %}
 ```
 - Creating a Gravattar account and adding the avatar to the sidebar by modification the *_config.yml* description
-```rb
+```sh
 description: '<img src="<AVATAR OF GRAVATAR LINK>?size=350" style="border-radius: 25px; padding: 10px; title="View on Gravatar" alt="View on Gravatar">'
 ```
 - Adding pages like *About me*, *Projects*...
