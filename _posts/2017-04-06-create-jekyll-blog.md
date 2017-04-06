@@ -28,7 +28,7 @@ UFW rule (optional)
 $ sudo ufw allow 4000
 ```
 # Choosing a template
-There are a lot on the internet but [Poole/lanyon](https://github.com/poole/lanyon) is just perfect: simple and elegant. There are lot of themes in http://jekyllthemes.org/.
+There are a lot on the internet but [Poole/lanyon](https://github.com/poole/lanyon) is just perfect: simple and elegant. There are lot of themes [here!](http://jekyllthemes.org/).
 After choosing the template I forked the code to my own repository in GitHub. By doing that I'm able to write the posts in local and use Github to deploy the posts or changes in the server.
 
 I created a new folder where to store my blog and connect it with the Github repository in the root of my user.
@@ -50,13 +50,14 @@ Once finished these steps the blog is set up and is time to customize it.
 # Customizing the blog
 
 - Adding the proper gems to the *_config.yml*
-```yml
+```rb
 # Gems
 gems:
 - jekyll-paginate
 ```
 - Adding tag and category pages following the example of [CodinFox](https://codinfox.github.io/dev/2015/03/06/use-tags-and-categories-in-your-jekyll-based-github-pages/)
 - Adding [disqus](https://disqus.com/) by singing up and following the steps. I had some problems with the code related to the comment section but I solved it by implementing a previous version:
+
 ```js
 _includes/disqus.html
 
@@ -84,7 +85,7 @@ _includes/disqus.html
 {% include analytics.html %}
 ```
 - Creating a Gravattar account and adding the avatar to the sidebar by modification the *_config.yml* description
-```yml
+```rb
 description: '<img src="<AVATAR OF GRAVATAR LINK>?size=350" style="border-radius: 25px; padding: 10px; title="View on Gravatar" alt="View on Gravatar">'
 ```
 - Adding pages like *About me*, *Projects*...
@@ -98,4 +99,4 @@ Sources:
 - [Disqus](https://disqus.com/)
 - [Google Analytics for Jekyll](https://michaelsoolee.com/google-analytics-jekyll/)
 
-If you have any doubt about the process just let me know so that we can learn together!
+If you have any doubt about the process just drop a comment so that we can learn together!
