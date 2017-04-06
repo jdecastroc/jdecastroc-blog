@@ -66,9 +66,9 @@ gems:
 <div id="disqus_thread"></div>
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = 'YOURFORUMSHORTNAME'; // required: replace example with your forum shortname
+        var disqus_shortname = 'YOUR FORUM SHORTNAME'; // required: replace example with your forum shortname
         // var disqus_developer = 1; // Comment out when the site is live
-        var disqus_identifier = "{{ page.url }}";
+        var disqus_identifier = "YOUR page.url var";
 
         /* * * DON'T EDIT BELOW THIS LINE * * */
         (function() {
