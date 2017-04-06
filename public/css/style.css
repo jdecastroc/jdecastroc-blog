@@ -1,0 +1,27 @@
+.date {
+  color: grey;
+}
+
+.tag {
+  background: rgba(106, 159, 181, 0.15) none repeat scroll 0 0;
+  border-radius: 4px;
+  color: #6a9fb5;
+  display: inline-block;
+  font-family: "PT Sans",Helvetica,Arial,sans-serif;
+  font-size: 90%;
+  margin-right: 0.5rem;
+  padding: 0 0.5rem;
+  transition: all 0.1s ease-in-out 0s;
+}
+
+.tag::before {
+  content: "";
+  font-family: FontAwesome;
+  padding-right: 0.5em;
+}
+
+.tag:hover {
+  background: #6a9fb5 none repeat scroll 0 0;
+  color: #fff;
+  text-decoration: none;
+}
