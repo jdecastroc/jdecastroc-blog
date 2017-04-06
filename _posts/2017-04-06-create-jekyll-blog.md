@@ -49,8 +49,9 @@ Once finished these steps the blog is set up and is time to customize it.
 
 # Customizing the blog
 
-- Adding the proper gems to the *_config.yml*
-```sh
+- Adding the proper gems to the *_config.yml*.
+
+```rb
 # Gems
 gems:
 - jekyll-paginate
@@ -80,14 +81,18 @@ gems:
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 {% endif %}
 ```
-- Adding Goolge analytics in all the pages. In order to accomplish this I put the provided google analytics script code into a new file located in *_include/analytics.html* and called that file by using the following code at the end of *_layouts/default.html*
+- Adding Goolge analytics in all the pages. In order to accomplish this I put the provided google analytics script code into a new file located in *_include/analytics.html* and called that file by using the following code at the end of *_layouts/default.html*.
+
 ```sh
 {% include analytics.html %}
 ```
+
 - Creating a Gravattar account and adding the avatar to the sidebar by modification the *_config.yml* description
-```sh
+
+```rb
 description: '<img src="<AVATAR OF GRAVATAR LINK>?size=350" style="border-radius: 25px; padding: 10px; title="View on Gravatar" alt="View on Gravatar">'
 ```
+
 - Adding pages like *About me*, *Projects*...
 
 It has been a good experience. The framework is perfectly modulated and except some exceptions it has not been difficult. The best thing I liked is that you're free to implement whatever you want like the modules of *disqus* or the google analytics script easily and fast thanks to that modulation. Besides if you don't want to go further by adding modules you can set up a simple and cool blog in a few minutes.
