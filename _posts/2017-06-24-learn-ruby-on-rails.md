@@ -1,4 +1,13 @@
-# Learning Ruby on Rails (RoR)
+---
+layout: post
+title: Learning Ruby on Rails
+description: How I started learning Ruby on Rails, a server-side web application framework written in Ruby.
+published: true
+comments: true
+category: Dev
+tags: [webdev, Ruby, Ruby on Rails]
+---
+
 ![alt Ruby on Rails](http://programacion.net/files/article/20151023121029_rubyrails.png)
 ## Reasons to learn a new programming language and motivation
 When studying at the university I needed to choose whether to develop my graduation project with Java or with Ruby. At that time, I was more confident that developing it with Java would be better to set the skills I was had been learning through the university subjects (mostly java and C++). That made me kind of abandon the idea of learning ruby and ruby on rails until I got japan. 
